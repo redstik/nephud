@@ -186,7 +186,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
+		"image"			"../console/background01"
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 
@@ -196,47 +196,15 @@
 			"tall"			"o0.628"
 		}
 
-		if_taller
+		//if_taller
 		{
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
 		
-		if_halloween_0
-		{
-			"image"		"../console/title_team_halloween2011_widescreen"
-		}
-		if_halloween_1
-		{
-			"image"		"../console/title_team_halloween2012_widescreen"
-		}
-		if_halloween_2
-		{
-			"image"		"../console/title_team_halloween2013_widescreen"
-		}
-		if_halloween_3
-		{
-			"image"		"../console/title_team_halloween2014_widescreen"
-		}
-		if_halloween_4
-		{
-			"image"		"../console/title_team_halloween2015_widescreen"
-		}
-		if_halloween_5
-		{	
-			"image"		"../console/title_scream_fortress_2017_widescreen"
-		}
-		if_fullmoon
-		{
-			"image"		"../console/title_fullmoon_widescreen"
-		}
-		if_christmas
-		{
-			"image"		"../console/background_xmas2011_widescreen"
-		}
 	}
 					
-	"TFLogoImage"
+	//"TFLogoImage"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"TFLogoImage"
@@ -277,19 +245,19 @@
 		}
 	}
 	
-	"TFCharacterImage"
-	{
+	//"TFCharacterImage"
+	//{
 		// "ControlName"	"ImagePanel"
-		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250" // 1 RMMC
-		"ypos"			"-80" // 1 RMMC
-		"zpos"			"-99"
-		"wide"			"600" // 2 RMMC
-		"tall"			"600" // 2 RMMC
-		"visible"		"1" // 2 RMMC
-		"enabled"		"1" // 2 RMMC
-		"scaleImage"	"1"
-	}
+	//	"fieldName"		"TFCharacterImage"
+	//	"xpos"			"c-250" // 1 RMMC
+//		"ypos"			"-80" // 1 RMMC
+//		"zpos"			"-99"
+//		"wide"			"600" // 2 RMMC
+//		"tall"			"600" // 2 RMMC
+//		"visible"		"1" // 2 RMMC
+//		"enabled"		"1" // 2 RMMC
+//		"scaleImage"	"1"
+//	}
 	
 	"RankModelPanel"
 	{
@@ -3125,7 +3093,7 @@
 		}		
 	}
 	
-	"ToonHUDButton"
+//z	"ToonHUDButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ToonHUDButton"

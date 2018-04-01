@@ -91,12 +91,4 @@
 		"subimage"	"replay/thumbnails/glyphs/glyph_reload"
 		"tooltip"	"Reload HUD"
 	}
-	"ToonHUDButton"
-	{
-		"label"		""
-		"command"	"engine play vo/compmode/cm_heavy_rankup_05.mp3"
-		"subimage"	"replay/thumbnails/glyphs/glyph_toonhud"
-		"tooltip"	"ToonHUD 11 by Griever"
-	}
-
 }
