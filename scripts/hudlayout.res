@@ -57,8 +57,8 @@
 		
 		"TextFont"		"FeedFont"
 		
-		"TeamBlue"		"91 122 140 255"
-		"TeamRed"		"189 59 59 255"
+		"TeamBlue"		"115 94 159 255"
+		"TeamRed"		"145 32 166 255"
 		"IconColor"		"190 180 170 255"
 		"LocalPlayerColor"	"Black"
 
