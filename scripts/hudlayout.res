@@ -751,8 +751,8 @@
 		"ypos"			"2"		//"r164"	
 		"wide"			"f0"		
 		"tall"			"600"		//100
-		"MeterFG"		"White"
-		"MeterBG"		"Black"
+		"MeterFG"		"186 153 226 255"
+		"MeterBG"		"166 96 156 255"
 	}
 	
 	HudDemomanCharge
