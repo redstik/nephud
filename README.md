@@ -6,6 +6,7 @@ the folder enables nep hitsounds and menu music
 put the nephud folder in /tf/custom  
 put the vpk in tf/custom  
 both in the same folder  
+install the font  
 ## feedback  
 send feedback to windkrieg#0608 on discord  
 -windkrieg  
