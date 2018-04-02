@@ -70,25 +70,4 @@
 		"subimage"	"replay/thumbnails/glyphs/glyph_console"
 		"tooltip"	"Console"
 	}
-	"HUDDefaultModeButton"
-	{
-		"label"		""
-		"command"	"engine cl_hud_minmode 0"
-		"subimage"	"replay/thumbnails/glyphs/glyph_hudmode_default"
-		"tooltip"	"HUD: Default mode"
-	}
-	"HUDCenteredModeButton"
-	{
-		"label"		""
-		"command"	"engine cl_hud_minmode 1"
-		"subimage"	"replay/thumbnails/glyphs/glyph_hudmode_centered"
-		"tooltip"	"HUD: Centered mode"
-	}
-	"ReloadHUDButton"
-	{
-		"label"		""
-		"command"	"engine hud_reloadscheme"
-		"subimage"	"replay/thumbnails/glyphs/glyph_reload"
-		"tooltip"	"Reload HUD"
-	}
 }

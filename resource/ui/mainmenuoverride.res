@@ -201,9 +201,8 @@
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
-		
 	}
-
+	
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -886,61 +885,6 @@
 		"navRight"		"MOTD_ShowButtonPanel_SB"
 		"navToRelay"	"SubButton"
 
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"labelText"		""
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"command"		"watch_stream"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
-			"actionsignallevel" "2"
-			"proportionaltoparent"	"1"
-				
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"0"
-			"paintborder"		"1"
-			"image_drawcolor"	"38 30 22 255" // Main Menu button text color
-			"image_armedcolor"	"240 240 240 255" // Main Menu hovered button text color
-			"border_default"	"SharpMainMenuButton"
-			"border_armed"		"SharpMainMenuButtonArmed"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"replay/thumbnails/mainmenu/button_streaming"
-
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
-			}
-		}
 	}
 
 	"StreamListPanel"
@@ -1664,7 +1608,7 @@
 		"wide"			"160"
 		"tall"			"195" // FLPH (195, 155, 130, 105)
 		"zpos"			"5"
-		"visible"		"1"	// HFLFMM
+		"visible"		"0"	// HFLFMM
 		"bgcolor_override"	"G_MainMenuPanel"
 		
 		"pin_to_sibling"			"G_BookmarkPanel"
@@ -1681,8 +1625,8 @@
 		"zpos"			"6"
 		"wide"			"160"
 		"tall"			"195" // FLPH (195, 155, 130, 105)
-		"visible"		"1"	// HFLFMM
-		"enabled"		"1"	// HFLFMM
+		"visible"		"0"	// HFLFMM
+		"enabled"		"0"	// HFLFMM
 		"border"		"NoBorder"
 		
 		"pin_to_sibling"			"G_FriendsPanel"
@@ -2845,264 +2789,6 @@
 			}				
 		}		
 	}
-	
-	"HUDDefaultModeButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HUDDefaultModeButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"61"
-		"wide"			"24"
-		"tall"			"24"
-		"visible"		"1"
-
-		"navUp"			"SteamWorkshopButton"
-		"navLeft"		"ConsoleButton"
-		"navRight"		"HUDCenteredModeButton"
-		"navToRelay"	"SubButton"
-		
-		"pin_to_sibling"			"ConsoleButton"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"1"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"24"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"image_drawcolor"	"203 186 177 255" // Footer text color
-			"image_armedcolor"	"203 186 177 255" // Footer text color
-			
-			"defaultBgColor_override" 	"0 0 0 0"
-			"armedBgColor_override" 	"0 0 0 0"
-			"depressedBgColor_override" "0 0 0 0"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"3"
-				"ypos"			"3"
-				"zpos"			"1"
-				"wide"			"18"
-				"tall"			"18"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}				
-		}		
-	}
-	
-	"HUDCenteredModeButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HUDCenteredModeButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"62"
-		"wide"			"24"
-		"tall"			"24"
-		"visible"		"1"
-
-		"navUp"			"SteamWorkshopButton"
-		"navLeft"		"HUDDefaultModeButton"
-		"navRight"		"ReloadHUDButton"
-		"navToRelay"	"SubButton"
-		
-		"pin_to_sibling"			"HUDDefaultModeButton"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"1"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"24"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"image_drawcolor"	"203 186 177 255" // Footer text color
-			"image_armedcolor"	"203 186 177 255" // Footer text color
-			
-			"defaultBgColor_override" 	"0 0 0 0"
-			"armedBgColor_override" 	"0 0 0 0"
-			"depressedBgColor_override" "0 0 0 0"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"3"
-				"ypos"			"3"
-				"zpos"			"1"
-				"wide"			"18"
-				"tall"			"18"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}				
-		}		
-	}
-	
-	"ReloadHUDButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ReloadHUDButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"63"
-		"wide"			"24"
-		"tall"			"24"
-		"visible"		"1"
-
-		"navUp"			"SteamWorkshopButton"
-		"navLeft"		"HUDCenteredModeButton"
-		"navRight"		"ToonHUDButton"
-		"navToRelay"	"SubButton"
-		
-		"pin_to_sibling"			"HUDCenteredModeButton"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"1"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"24"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"image_drawcolor"	"203 186 177 255" // Footer text color
-			"image_armedcolor"	"203 186 177 255" // Footer text color
-			
-			"defaultBgColor_override" 	"0 0 0 0"
-			"armedBgColor_override" 	"0 0 0 0"
-			"depressedBgColor_override" "0 0 0 0"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"3"
-				"ypos"			"3"
-				"zpos"			"1"
-				"wide"			"18"
-				"tall"			"18"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}				
-		}		
-	}
-	
-	"ToonHUDButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ToonHUDButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"60"
-		"wide"			"24"
-		"tall"			"24"
-		"visible"		"1"
-
-		"navUp"			"SteamWorkshopButton"
-		"navLeft"		"ReloadHUDButton"
-		"navRight"		"QuitButton"
-		"navToRelay"	"SubButton"
-		
-		"pin_to_sibling"			"ReloadHUDButton"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"1"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"24"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"image_drawcolor"	"203 186 177 255" // Footer text color
-			"image_armedcolor"	"203 186 177 255" // Footer text color
-			
-			"defaultBgColor_override" 	"0 0 0 0"
-			"armedBgColor_override" 	"0 0 0 0"
-			"depressedBgColor_override" "0 0 0 0"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"3"
-				"ypos"			"3"
-				"zpos"			"1"
-				"wide"			"18"
-				"tall"			"18"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}				
-		}		
-	}
-
-	
 // # ----------
 
 
@@ -4470,30 +4156,6 @@
 					"paintbackground"	"0"
 					"image_drawcolor"	"117 107 94 255"
 					"image_armedcolor"	"235 226 202 255"
-				}
-			}
-			
-			"CyclingAd"
-			{
-				"ControlName"			"CCyclingAdContainerPanel"
-				"fieldName"				"CyclingAd"
-				"xpos"					"5"
-				"ypos"					"p0.47"
-				"zpos"					"100"
-				"wide"					"f10"
-				"tall"					"p0.5"
-				"visible"				"0"
-				"enabled"				"0"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"
-				"bgcolor_override"		"0 0 0 255"
-				"items"
-				{
-					"0"
-					{
-						"item"			"---"
-						"show_market"	"0"
-					}
 				}
 			}
 
