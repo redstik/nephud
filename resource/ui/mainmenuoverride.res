@@ -196,69 +196,14 @@
 			"tall"			"o0.628"
 		}
 
-		//if_taller
+		if_taller
 		{
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
 		
 	}
-					
-	//"TFLogoImage"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"TFLogoImage"
-		"xpos"				"c-310"
-		"ypos"				"32"
-		"zpos"				"1"
-		"wide"				"160"
-		"tall"				"40"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../logo/new_tf2_logo"
-		"scaleImage"		"1"
-		"mouseinputenabled"	"0"
 
-		if_halloween_0
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_1
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_2
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_3
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_4
-		{	
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_5
-		{	
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-	}
-	
-	//"TFCharacterImage"
-	//{
-		// "ControlName"	"ImagePanel"
-	//	"fieldName"		"TFCharacterImage"
-	//	"xpos"			"c-250" // 1 RMMC
-//		"ypos"			"-80" // 1 RMMC
-//		"zpos"			"-99"
-//		"wide"			"600" // 2 RMMC
-//		"tall"			"600" // 2 RMMC
-//		"visible"		"1" // 2 RMMC
-//		"enabled"		"1" // 2 RMMC
-//		"scaleImage"	"1"
-//	}
-	
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -3093,7 +3038,7 @@
 		}		
 	}
 	
-//z	"ToonHUDButton"
+	"ToonHUDButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ToonHUDButton"
