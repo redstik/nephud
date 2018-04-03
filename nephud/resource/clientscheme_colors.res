@@ -9,9 +9,9 @@ Scheme
 		
 		"G_Highlight"			"144 31 165 255" // Highlight color
 		"G_White"				"255 255 255 255"
-		"G_Black"				"0 0 0 255"
-		"G_Red"					"230 0 0 255"
-		"G_Shadow"				"0 0 0 120" // Shadow color
+    	"G_Black"				"0 0 0 255"
+//		"G_Red"					"230 0 0 255"
+	    "G_Shadow"				"0 0 0 120" // Shadow color
 		"G_LightShadow"			"0 0 0 110"
 		"G_Heal"				"234 148 182 255" // Heal color
 		"G_Hit"					"20 2 62 255" // Hit color
@@ -52,17 +52,17 @@ Scheme
 		"G_CenteredUberchargeBg"	 "0 0 0 100" // Centered ubercharge meter background color
 		"G_BrownBg"					"46 43 42 220"
 		"G_DestroyBg"				"120 0 0 150"
-		"G_ScoreboardBlue"			"55 73 85 100"
-		"G_ScoreboardRed"			"106 34 34 100"
-		"G_TeamBlue"				"91 122 140 255"
-		"G_TeamRed"					"189 58 58 255"
-		"G_TeamButtonBlue"			"91 122 140 100"
-		"G_TeamButtonRed"			"189 58 58 100"
-		"G_TeamButtonBlueArmed"		"111 142 160 255"
-		"G_TeamButtonRedArmed"		"209 78 78 255"		
+		"G_ScoreboardBlue"			"149 148 234 100"
+		"G_ScoreboardRed"			"166 96 96 100"
+    	"G_TeamBlue"				"149 148 234 255"
+		"G_TeamRed"					"166 96 96 255"
+//		"G_TeamButtonBlue"			"91 122 140 100"
+//		"G_TeamButtonRed"			"189 58 58 100"
+//		"G_TeamButtonBlueArmed"		"111 142 160 255"
+//		"G_TeamButtonRedArmed"		"209 78 78 255"		
 		"G_Footer"					"28 23 19 255" // Menu footer color
 		"G_DimmFooter"				"28 23 19 200" // Dimm Menu footer color
-		"G_FooterText"				"203 186 177 255" // Footer text color
+//		"G_FooterText"				"203 186 177 255" // Footer text color
 		"G_DimmFooterText"			"196 178 168 120" // Dimm Footer text color
 		"G_OuterBorder"				"0 0 0 255" // Outer border color
 		"G_InnerBorder"				"0 0 0 30" // Inner border color
@@ -135,9 +135,9 @@ Scheme
 		"PartyMember6"	"255 133 255 255"
 		
 		"White"				"235 235 235 255"
-		"Red"				"192 28 0 140"
+		"Red"				"151 77 77 140"
 		"RedSolid"			"192 28 0 255"
-		"Blue"				"0 28 162 140"
+		"Blue"				"149 148 234 140"
 		"Yellow"			"255 255 255 255"
 		"TransparentYellow"	"255 255 255 255 140"
 		"BrightYellow"		"251 235 0 255"
@@ -150,11 +150,11 @@ Scheme
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
 		
-		"HUDBlueTeam"		"104 124 155 127"
-		"HUDRedTeam"		"180 92 77 127"
+//		"HUDBlueTeam"		"149 148 234 127"
+//		"HUDRedTeam"		"151 77 77 127"
 		"HUDSpectator"		"124 124 124 127"
-		"HUDBlueTeamSolid"	"104 124 155 255"
-		"HUDRedTeamSolid"	"180 92 77 255"
+		"HUDBlueTeamSolid"	"133 121 235 255"
+		"HUDRedTeamSolid"	"155 77 77 255"
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"200 187 161 255"

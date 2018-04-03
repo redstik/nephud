@@ -154,7 +154,7 @@
 		"proportionaltoparent"	"1"
 	}
 	
-	"TopBG"
+//	"TopBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TopBG"
