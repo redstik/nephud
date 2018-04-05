@@ -4,7 +4,7 @@ transparency can be enabled via cfg in /nephud/cfg
 the folder enables nep hitsounds and menu music  
 ## installation instructions  
 put the nephud folder in /tf/custom  
-put the vpk in tf/custom  
+put the my_cutom_stuff folder in tf/custom  
 both in the same folder  
 install the font  
 ## feedback  
