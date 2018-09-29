@@ -8,8 +8,8 @@ put the my_cutom_stuff folder in tf/custom
 both in the same folder  
 install the font  
 ## feedback  
-send feedback to windkrieg#0608 on discord  
--windkrieg  
+send feedback to redstik#0608 on discord  
+-red
 ps.  
 
 
